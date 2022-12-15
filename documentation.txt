@@ -1,0 +1,13 @@
+Usage:
+    mail-bomb -[options]
+
+options:                         values:
+    -a, --host-mail                 host@mail.com
+    -t, --target-mail               target@mail.com
+    -m, -- mail-type                [gmail | yahoo | outlook | hotmail]
+    -h, --help                      displays this menu
+
+example:
+    mail-bomb -h, mail-bomb --help
+    mail-bomb -a host@mail.com -t target@yahoo.com -m yahoo
+    mail-bomb --host-mail host@mail.com --target-mail target@outlook.com --mail-type outlook
