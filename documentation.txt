@@ -1,5 +1,4 @@
-Usage:
-    mail-bomb -[options]
+usage: mail-bomb [<options>]
 
 options:                         values:
     -a, --host-mail                 host@mail.com
